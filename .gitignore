@@ -7,10 +7,10 @@
 
 # testing
 /coverage
-
+/src/middleware
 # production
 /build
-
+/node_modules 
 # misc
 .DS_Store
 .env.local
