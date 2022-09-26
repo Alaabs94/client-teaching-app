@@ -7,7 +7,7 @@
 
 # testing
 /coverage
-/src/middleware
+/middleware
 # production
 /build
 /node_modules 
