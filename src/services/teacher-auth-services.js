@@ -1,5 +1,5 @@
 import axios from "axios";
-const url = "http://localhost:5000";
+const url = "https://e-teaching-app.herokuapp.com";
 axios.defaults.withCredentials = true;
 const createTeacher = (data) => {
   return axios.post(`${url}/api/teacher/signup`, data);

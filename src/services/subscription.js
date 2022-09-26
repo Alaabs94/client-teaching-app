@@ -1,5 +1,5 @@
 import axios from "axios";
-const url = "http://localhost:5000";
+const url = "https://e-teaching-app.herokuapp.com";
 axios.defaults.withCredentials = true;
 const subscribed = (course, userId) => {
   return axios.post(`${url}/api/course/add/${course}`, { id: userId });
